@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    text-decoration: none;
+}
+body{
+    
+    background: url(img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+   
+}
+
+
+.header_section{
+    height: 100vh;
+    position: relative;
+}
+
+
+.header_section h1{
+    position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center;
+    top:100px;
+    left: 300px;
+    font-size: 45px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+
+
+.navbar
+  {
+      position: fixed;
+      padding: 30px 0;
+      z-index: 999;                                                       
+      width: 100%;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 600;
+      font-style: bold;
+      transition: all 0.3s ease;
+  }
+ 
+ 
+
+
+
+  
+  .cover_image{
+    height: 500px;
+    position: absolute;
+    left:180px;
+    top:100px;
+  }
+
+  .button {
+    background-color: #ff4f28; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    border-radius: 10px;
+  }
+  
+  .button1 {
+    background-color: #ff4f28; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    border-radius: 10px;
+  }
+
+  .button2 {
+    background-color: #ff4f28; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    border-radius: 10px;
+  }
+
+  .button3 {
+    background-color: #ff4f28; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: 300px;
+    left: 1000px;
+    border-radius: 10px;
+  }
+  .button4 {
+    background-color: #ff4f28; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    border-radius: 10px;
+  }
+  .button5 {
+    background-color: #ff4f28; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+    border-radius: 10px;
+  }
+  .button6 {
+    background-color: #ff4f28; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: 570px;
+    left: 500px;
+    border-radius: 10px;
+  }
+  .button_new {
+    background-color: white; 
+    color: black; 
+    border: 5px solid #ff4f28;
+  }
+  
+  .button_new:hover {
+    background-color: #ff4f28;
+    color: white;
+  }
+  
+  .about_section{
+    height: 100vh;
+    position: relative;
+    background: url(img/about_kids.jpg);
+    background-size: cover;
+    height:700px;
+    
+}
+
+
+.about_section h1{
+    position: absolute;
+    color: black;
+    width: 100%;
+    text-align: center;
+    top:40px;
+    right: 110px;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.about_section_up_arrow{
+  cursor: pointer;
+  transform: rotate(180deg);
+  position: absolute;
+  height: 100px;
+  top: 50px;
+  left: calc(50% - 50px);
+}
+.about_section p{
+
+  position: absolute;
+     color: black;
+     width: 100%;
+     text-align: center;
+     top: 85px;
+     font-size: 30px;
+     padding: 5%;
+     right:100px;
+     box-sizing: border-box;
+     font-family: 'Ubuntu', sans-serif;
+ }
+
+hr {
+  position:relative;
+  padding:3rem 0;
+  border:none;
+
+ 
+}
+hr:before {
+    content:'----- * -----';
+    position:absolute;
+    top:1.2rem;
+    right:0;
+    left:0;
+    font-size:50px;
+    color:#ff4f28;
+    text-align:center;
+    text-decoration-style: inherit;
+  }
+
+  .begin {
+
+
+    border-radius: 2rem;
+    background: linear-gradient(to right, #FFA500, #FF803E) !important;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 23px;
+    padding: 10px;
+    width: 250px;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin: 1px;
+    font-family: "Lobster", serif;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display:inline;
+    margin-left:2.5rem;
+    position: absolute;
+    top: 250px;
+    left: 980px;
+    height: 100px;
+}
+.begin span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+    color: #FFFFFF;
+
+}
+.begin span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    color: #FFFFFF;
+
+}
+.begin:hover span {
+    padding-right: 25px;
+}
+.begin:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.contact_section_insta{
+  position: absolute;
+  width: 100px;
+  top: 500px;
+  left: calc(50% + 100px);
+  font-size:80px;
+  color:white;
+
+}
+
+.contact_section_twitter{
+  position: absolute;
+  width: 100px;
+  top: 500px;
+  left: calc(50% + 200px);
+  font-size:80px;
+  color:white;
+
+}
+
+
+.contact_section_linkedin{
+  position: absolute;
+  width: 100px;
+  top: 500px;
+  left: calc(50% + 300px);
+  font-size:80px;
+  color:white;
+
+}
+.contact_section_twitter:hover{
+  transform: translateY(-25px);
+  transition: 1s ;
+  cursor: pointer;
+  
+
+}
+.contact_section_linkedin:hover{
+  transform: translateY(-25px);
+  transition: 1s ;
+  cursor: pointer;
+  
+
+}
+.contact_section_insta:hover{
+  transform: translateY(-25px);
+  transition: 1s ;
+  cursor: pointer;
+
+}
+
+.cone{
+  height: 300px;
+  position: absolute;
+  left:50px;
+  top:200px;
+
+}
+
+.cone1{
+  height: 300px;
+  position: absolute;
+  left:250px;
+  top:200px;
+
+}
+
+.plus{
+  height: 100px;
+  position: absolute;
+  left:480px;
+  top:250px;
+
+}
+
+.cone2{
+  height: 300px;
+  position: absolute;
+  left:550px;
+  top:200px;
+
+}
+
+.cone3{
+  height: 300px;
+  position: absolute;
+  left:750px;
+  top:200px;
+
+}
+
+.cone4{
+  height: 300px;
+  position: absolute;
+  left:950px;
+  top:200px;
+
+}
+.count{
+  position: absolute;
+  top: 550px;
+  left: 500px;
+  width: 100px;
+  height: 50px;
+  font-size: 50px;
+}
+
+.lab{
+
+  position: absolute;
+  top: 560px;
+  left: 350px;
+  font-size: 40px;
+  color: #FFA500;
+  font-family: 'Ubuntu', sans-serif;
+
+
+}
+.sub_button {
+
+
+  border-radius: 2rem;
+  background: linear-gradient(to right, #FFA500, #FF803E) !important;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 23px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.4s;
+  cursor: pointer;
+  margin: 1px;
+  font-family: "Lobster", serif;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  display:inline;
+  margin-left:2.5rem;
+  position: absolute;
+  top: 550px;
+  left: 580px;
+  height: 50px;
+}
+.sub_button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+  color: #FFFFFF;
+
+}
+.sub_button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  color: #FFFFFF;
+
+}
+.sub_button:hover span {
+  padding-right: 25px;
+}
+.sub_button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.head{
+  position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center;
+    top:100px;
+    right: 100px;
+    font-size: 45px;
+    font-family: 'Ubuntu', sans-serif;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathoMania | Number Lesson</title>
+    <link rel="stylesheet" href="style_count.css">
+    <style>
+
+        div{
+            position: absolute;
+            top: 200px;
+            left: 50px;
+
+        }
+        .btn-group button {
+          background-color: #04AA6D; /* Green background */
+          border: 5px solid green; /* Green border */
+          color: white; /* White text */
+          padding: 10px 24px; /* Some padding */
+          cursor: pointer; /* Pointer/hand icon */
+          float: left; /* Float the buttons side by side */
+          width: 150px;
+          height: 150px;
+          font-size: 50px;
+          font-family: 'Ubuntu', sans-serif;
+        
+         
+        }
+        
+        /* Clear floats (clearfix hack) */
+        .btn-group:after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        .btn-group button:not(:last-child) {
+          border-right: none; /* Prevent double borders */
+        }
+        
+        /* Add a background color on hover */
+        .btn-group button:hover {
+          background-color: #3e8e41;
+        }
+
+
+        </style>
+
+</head>
+<body>
+    <header id="count_cone" class="count_section">
+      
+           <h1 class="head">Number Lesson</h1>
+        <a href="index.html"><img src="img/Logo.png" alt="logo"></a>
+        <div class="btn-group">
+            <button onclick="myFunction()">1</button>
+            <button onclick="myFunction1()">2</button>
+            <button onclick="myFunction2()">3</button>
+            <button onclick="myFunction3()">4</button>
+            <button onclick="myFunction4()">5</button>
+            <button onclick="myFunction5()">6</button>
+            <button onclick="myFunction6()">7</button>
+            <button onclick="myFunction7()">8</button>
+       
+          </div>
+          <p id="demo"></p>
+          <p id="demo1"></p>
+          <p id="demo2"></p>
+          <p id="demo3"></p>
+          <p id="demo4"></p>
+          <p id="demo5"></p>
+          <p id="demo6"></p>
+          <p id="demo7"></p>
+
+      
+ 
+     </header>
+
+     <script>function myFunction() {
+        document.getElementById("demo").innerHTML = "ONE";
+      }
+      
+      function myFunction1() {
+        document.getElementById("demo1").innerHTML = "TWO";
+      }
+      function myFunction2() {
+        document.getElementById("demo2").innerHTML = "THREE";
+      }
+      function myFunction3() {
+        document.getElementById("demo3").innerHTML = "FOUR";
+      }
+      
+      function myFunction4() {
+        document.getElementById("demo4").innerHTML = "FIVE";
+      }
+      
+      
+      function myFunction5() {
+        document.getElementById("demo5").innerHTML = "SIX";
+      }
+      
+      
+      function myFunction6() {
+        document.getElementById("demo6").innerHTML = "SEVEN";
+      }
+      
+      
+      function myFunction7() {
+        document.getElementById("demo7").innerHTML = "EIGHT";
+      }
+      
+      
+      
+      
+      </script>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/576c7b8fe3.js" crossorigin="anonymous"></script>
+</body>
+</html>
